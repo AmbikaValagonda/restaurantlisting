@@ -42,7 +42,5 @@ public class RestaurantController {
 		return new ResponseEntity<>(restaurantAdded, HttpStatus.CREATED);
 	}
 	
-	
-
-	
+		
 }
