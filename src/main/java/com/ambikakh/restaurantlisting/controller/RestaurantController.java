@@ -41,6 +41,5 @@ public class RestaurantController {
 		RestaurantDTO restaurantAdded = restaurantService.addRestaurantInDB(restaurantDTO);
 		return new ResponseEntity<>(restaurantAdded, HttpStatus.CREATED);
 	}
-	
-		
+			
 }
