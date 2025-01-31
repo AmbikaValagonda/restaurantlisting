@@ -21,6 +21,7 @@ import com.ambikakh.restaurantlisting.service.RestaurantService;
 @RequestMapping("/restaurant")
 @CrossOrigin
 public class RestaurantController {
+	
 	@Autowired
 	RestaurantService restaurantService;
 	
